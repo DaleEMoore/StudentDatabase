@@ -1,0 +1,32 @@
+
+Overview
+forked https://github.com/ngengesenior/StudentDatabase
+to https://github.com/DaleEMoore/StudentDatabase.git
+
+
+
+TODO
+See if StudentDatabase does any DB data entry and CRUD.
+    Run it and it fails with "SyntaxError: Missing parentheses in call to 'print'" because it's python2.
+    It's running OK with python2.
+    student_db.db - login user, password
+    open student_db.db inside pycharm gets
+    Sqliteman
+    Sqlite3 executable 'sqlite3' is not found in your path. Some features will be disabled.
+    OK - launches Sqliteman; tables admin (name, password) {admin, password},
+    students (first_name, last_name, student_id, phone, parent_address, sex)
+    No obvious data browse or SQL run in Sqliteman.
+    Open "DB Browser for SQLite"; admin (name, password) {admin, password},
+    There's an ADD STUDENT screen; enter data; Submit;
+    "4"	"Dale"	"Moore"	"314"	"210-681-9153"	"5602 Charlie Chan, San Antonio, Texas 78240"	"M"
+    YEAH!
+
+Is the Search implemented? I can't seem to get to it. Nope, no screen, nothing fleshed out.
+
+
+
+Logs
+Mon 30 Oct 2017 5:38 PM CST
+Created
+forked https://github.com/ngengesenior/StudentDatabase
+to https://github.com/DaleEMoore/StudentDatabase.git
